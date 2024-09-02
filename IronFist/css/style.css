@@ -2,10 +2,17 @@
     margin : 0; /*Define a area de margem nos quatro lados do elemento*/
     padding: 0; /*Define uma distancia entre o conteudo de um elemento e as suas bordas*/
 }
+body{
+    background-color: yellow;
+}
+.logo_header{
+    width: 200px; /* Define a largura da imagem */
+    height: auto; /* Ajusta a altura automaticamente para manter a proporção */
+}
 .header{
-    height: 100px; /*Altura*/
+    height: 200px; /*Altura*/
     border-style: solid; /*Borda com estilo sólido*/
-    font-style: normal;
+    font-style: normal; /*Deixa o estilo da fonte padrão*/
 }
 .link{
     text-decoration: none; /*Remove a decoração do link*/
