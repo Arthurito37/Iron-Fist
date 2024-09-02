@@ -1,0 +1,14 @@
+*{ 
+    margin : 0; /*Define a area de margem nos quatro lados do elemento*/
+    padding: 0; /*Define uma distancia entre o conteudo de um elemento e as suas bordas*/
+}
+.header{
+    height: 100px; /*Altura*/
+    border-style: solid; /*Borda com estilo sólido*/
+    font-style: normal;
+}
+.link{
+    text-decoration: none; /*Remove a decoração do link*/
+    color: inherit; /*Remover a cor do link*/
+    font-family: Arial, Helvetica, sans-serif; /*Especifica a fonte do texto*/
+}
